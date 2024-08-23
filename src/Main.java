@@ -18,7 +18,7 @@ public class Main {
             main2.imprimeRandom();
 
         }
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 0; i < 5; i++) {
 
             Cubo cubo = new Cubo();
             cubo.x = i * 5;
