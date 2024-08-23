@@ -31,6 +31,8 @@ public class Main {
 //        random2 =
         System.out.println("suma con metodo de retorno: "+new Main().sumaConRetorno(5,7));
 
+        //Bucles for, while, if, switch
+
     }
 
     /* Esta clase lo que hace es sumar jaja */
