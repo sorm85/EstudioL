@@ -29,6 +29,7 @@ public class Main {
 
         }
 //        random2 =
+        System.out.println("suma con metodo de retorno: "+new Main().sumaConRetorno(5,7));
 
     }
 
@@ -42,6 +43,8 @@ public class Main {
         mainClass.MultiConNumeroPorMain(78,42);
         mainClass.DivisonConNumeroPorMain(42,78);
         SumaEnStatic(42,78);
+
+
     }
 
 
@@ -49,10 +52,16 @@ public class Main {
         System.out.println(random);
     }
 
+
     public static void SumaEnStatic (int internal1, int intenal2 ){
         System.out.println("SUMA CON STATIC: "+(internal1+intenal2));
     }
 
+    public int  sumaConRetorno (int x, int y){
+        int resultado = 0;
+        resultado = x + y;
+        return resultado;
+    }
     public void sumaConNumeroPorMain (int internal1, int internal2){
 
         int resultado = internal1 + internal2;
