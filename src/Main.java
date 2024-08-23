@@ -43,23 +43,7 @@ public class Main {
         mainClass.DivisonConNumeroPorMain(42,78);
         SumaEnStatic(42,78);
     }
-    //GIT
-    /*
 
-    *  Master {
-    *           hijo1
-    *               {hijo1.1
-    *                hijo1.2
-    *           hijo2
-                cambio2 - commit -> git local -> push -> GitHub
-
-    *
-    *
-    *
-    * */
-    //GITHUB, GITLAB, BitBucket
-
-//    repositorios
 
     public void imprimeRandom (){
         System.out.println(random);
